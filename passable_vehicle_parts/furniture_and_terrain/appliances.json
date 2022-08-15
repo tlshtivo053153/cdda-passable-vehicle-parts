@@ -1,0 +1,353 @@
+[
+  {
+    "copy-from": "ap_fridge",
+    "id": "ap_fridge",
+    "name": { "str": "fridge" },
+    "type": "vehicle_part",
+    "looks_like": "f_fridge",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_minifridge",
+    "id": "ap_minifridge",
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_freezer",
+    "id": "ap_freezer",
+    "name": { "str": "freezer" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_minifreezer",
+    "id": "ap_minifreezer",
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_oven",
+    "id": "ap_oven",
+    "name": { "str": "oven" },
+    "type": "vehicle_part",
+    "looks_like": "f_oven",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_water_purifier",
+    "id": "ap_water_purifier",
+    "name": { "str": "stationary water purifier" },
+    "type": "vehicle_part",
+    "looks_like": "f_water_purifier",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_arcade_machine",
+    "id": "ap_arcade_machine",
+    "name": { "str": "arcade machine" },
+    "type": "vehicle_part",
+    "looks_like": "f_arcade_machine",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_forge",
+    "id": "ap_forge",
+    "name": { "str": "electric forge" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_foodco",
+    "id": "ap_foodco",
+    "name": { "str": "FOODCO kitchen buddy" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_stereo",
+    "id": "ap_stereo",
+    "name": { "str": "Stereo System" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_chemlab",
+    "id": "ap_chemlab",
+    "name": { "str": "chemistry lab" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_weldrig",
+    "id": "ap_weldrig",
+    "name": { "str": "welding rig" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_kiln",
+    "id": "ap_kiln",
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_drill_press",
+    "id": "ap_drill_press",
+    "name": { "str": "drill press" },
+    "type": "vehicle_part",
+    "looks_like": "f_machinery_light",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_tablesaw",
+    "id": "ap_tablesaw",
+    "name": { "str": "table saw" },
+    "type": "vehicle_part",
+    "looks_like": "f_machinery_light",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_mitresaw",
+    "id": "ap_mitresaw",
+    "name": { "str": "mitre saw" },
+    "type": "vehicle_part",
+    "looks_like": "f_machinery_light",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_bandsaw",
+    "id": "ap_bandsaw",
+    "name": { "str": "band saw" },
+    "type": "vehicle_part",
+    "looks_like": "f_machinery_light",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_router",
+    "id": "ap_router",
+    "name": { "str": "router" },
+    "type": "vehicle_part",
+    "looks_like": "f_machinery_light",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_planer",
+    "id": "ap_planer",
+    "name": { "str": "planer" },
+    "type": "vehicle_part",
+    "looks_like": "f_machinery_light",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_jointer",
+    "id": "ap_jointer",
+    "name": { "str": "jointer" },
+    "type": "vehicle_part",
+    "looks_like": "f_machinery_light",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_hydraulic_press",
+    "id": "ap_hydraulic_press",
+    "name": { "str": "hydraulic press" },
+    "type": "vehicle_part",
+    "looks_like": "f_hydraulic_press",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_air_compressor",
+    "id": "ap_air_compressor",
+    "name": { "str": "air compressor" },
+    "type": "vehicle_part",
+    "looks_like": "f_standing_tank",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_heater_large",
+    "id": "ap_heater_large",
+    "name": { "str": "large heater" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_heater_small",
+    "id": "ap_heater_small",
+    "name": { "str": "small heater" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_electrolyzer_makeshift",
+    "id": "ap_electrolyzer_makeshift",
+    "name": { "str": "makeshift water electrolyzer" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_ammonia_machine_reactor",
+    "id": "ap_ammonia_machine_reactor",
+    "name": { "str": "makeshift ammonia machine reactor" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_ammonia_machine_pipework",
+    "id": "ap_ammonia_machine_pipework",
+    "name": { "str": "makeshift ammonia machine pipework" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_nitrogen_generator",
+    "id": "ap_nitrogen_generator",
+    "name": { "str": "makeshift nitrogen generator" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "power_cord",
+    "id": "power_cord",
+    "name": { "str": "power cord" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_standing_lamp",
+    "id": "ap_standing_lamp",
+    "name": { "str": "standing lamp" },
+    "type": "vehicle_part",
+    "looks_like": "f_floor_lamp",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_standing_floodlight",
+    "id": "ap_standing_floodlight",
+    "name": { "str": "standing floodlight" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_wall_wiring",
+    "id": "ap_wall_wiring",
+    "name": { "str": "wall wirings" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_solar_panel",
+    "id": "ap_solar_panel",
+    "name": { "str": "solar panel" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_reinforced_solar_panel",
+    "id": "ap_reinforced_solar_panel",
+    "name": { "str": "reinforced solar panel" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_solar_panel_v2",
+    "id": "ap_solar_panel_v2",
+    "name": { "str": "upgraded solar panel" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_reinforced_solar_panel_v2",
+    "id": "ap_reinforced_solar_panel_v2",
+    "name": { "str": "upgraded reinforced solar panel" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_wind_turbine",
+    "id": "ap_wind_turbine",
+    "name": { "str": "wind turbine" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_xl_wind_turbine",
+    "id": "ap_xl_wind_turbine",
+    "name": { "str": "large wind turbine" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_battery_small",
+    "id": "ap_battery_small",
+    "name": { "str": "small grid battery" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_battery_medium",
+    "id": "ap_battery_medium",
+    "name": { "str": "medium grid battery" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_battery",
+    "id": "ap_battery",
+    "name": { "str": "large grid battery" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_battery_large",
+    "id": "ap_battery_large",
+    "name": { "str": "very large grid battery" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_battery_car",
+    "id": "ap_battery_car",
+    "name": { "str": "car grid battery" },
+    "type": "vehicle_part",
+    "looks_like": "battery_car",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_washing_machine",
+    "id": "ap_washing_machine",
+    "name": { "str": "washing machine" },
+    "type": "vehicle_part",
+    "looks_like": "f_washer",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_dishwasher",
+    "id": "ap_dishwasher",
+    "name": { "str": "dishwasher" },
+    "type": "vehicle_part",
+    "looks_like": "f_dishwasher",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_autoclave",
+    "id": "ap_autoclave",
+    "name": { "str": "small autoclave" },
+    "type": "vehicle_part",
+    "looks_like": "f_autoclave",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_foot_locker_recharge_station",
+    "id": "ap_foot_locker_recharge_station",
+    "name": { "str": "foot locker recharging station" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "ap_box_battery_charger",
+    "id": "ap_box_battery_charger",
+    "name": { "str": "box battery charger" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  }
+]

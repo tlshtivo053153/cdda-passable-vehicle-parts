@@ -1,0 +1,9 @@
+[
+  {
+    "copy-from": "crane_medium_internal",
+    "id": "crane_medium_internal",
+    "type": "vehicle_part",
+    "name": { "str": "internal boom crane" },
+    "delete": { "flags": [ "OBSTACLE"  ] }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "copy-from": "basketlg_abstract",
+    "id": "basketlg",
+    "symbol": "o",
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "basketlg_abstract",
+    "id": "basketlg_cart",
+    "symbol": "o",
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "basketlg_folding",
+    "type": "vehicle_part",
+    "id": "basketlg_folding",
+    "name": { "str": "folding shopping cart basket" },
+    "delete": { "flags": [ "OBSTACLE" ] }
+  }
+]

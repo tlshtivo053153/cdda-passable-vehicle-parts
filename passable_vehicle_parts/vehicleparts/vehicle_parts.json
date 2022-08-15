@@ -1,0 +1,100 @@
+[
+  {
+    "copy-from": "minifridge",
+    "id": "minifridge",
+    "name": { "str": "minifridge" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "minifreezer",
+    "id": "minifreezer",
+    "name": { "str": "minifreezer" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "washing_machine",
+    "id": "washing_machine",
+    "name": { "str": "washing machine" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "dishwasher",
+    "id": "dishwasher",
+    "name": { "str": "portable dishwasher" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "autoclave",
+    "id": "autoclave",
+    "name": { "str": "autoclave" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "veh_table",
+    "id": "veh_table",
+    "name": { "str": "table" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "veh_table_wood",
+    "id": "veh_table_wood",
+    "name": { "str": "wood table" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "veh_table_foldable",
+    "id": "veh_table_foldable",
+    "name": { "str": "flat-packable table" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "workbench",
+    "id": "workbench",
+    "name": { "str": "workbench" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "workbench_with_recharger",
+    "id": "workbench_with_recharger",
+    "name": { "str": "workbench with battery recharger" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "water_wheel",
+    "id": "water_wheel",
+    "name": { "str": "water wheel" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "xl_water_wheel",
+    "id": "xl_water_wheel",
+    "name": { "str": "large water wheel" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "animal_compartment",
+    "id": "animal_compartment",
+    "name": { "str": "animal compartment" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "copy-from": "robot_controls",
+    "id": "robot_controls",
+    "name": { "str": "robot controls" },
+    "type": "vehicle_part",
+    "delete": { "flags": [ "OBSTACLE" ] }
+  }
+]

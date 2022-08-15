@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "passable_vehicle_parts",
+    "name": "削除 - 車両の通行不可フラグ",
+    "authors": [ "tlshtivo053153" ],
+    "description": "車両部品の通行不可フラグを取り除いて通行可能にするMODです。対象となるのは、ショッピングカートバスケット、機能を持つパーツ(溶接装置など)、建設メニューから作る1マス車両の家具(冷蔵庫など)です。",
+    "category": "rebalance",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+  }
+]
